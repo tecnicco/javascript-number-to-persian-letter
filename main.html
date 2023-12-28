@@ -1,0 +1,10 @@
+<meta charset="utf-8" />
+<script type="text/javascript"  src="ntl.js"></script>
+<input id="toletter" type="number" maxlength="16" step="100" min="0" dir="ltr" onkeyup="convertToletter(this.value)"/>
+<div id="pb" dir='rtl' ></div>
+
+ <script type="text/javascript"> 
+function convertToletter(v){
+pb.innerHTML=NToLe(v)
+}
+</script>
